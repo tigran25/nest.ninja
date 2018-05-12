@@ -1,0 +1,32 @@
+{
+  "name": "nest.ninja",
+  "version": "0.0.01",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": ["nesting", "packing", "2d"],
+  "author": "John Rees <john@bitsushi.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/node": "^6.0.110",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.4",
+    "ts-jest": "^22.4.6",
+    "ts-node": "^6.0.3",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.12.0",
+    "typescript": "^2.8.3"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+  }
+}
