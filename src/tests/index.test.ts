@@ -1,6 +1,6 @@
-import NestNinja from ".."
-import * as path from "path"
 import * as fs from "fs"
+import * as path from "path"
+import NestNinja from ".."
 
 const svg = fs.readFileSync(path.join(__dirname, "fixtures", "flat-simple.svg"))
 
